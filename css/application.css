@@ -1,0 +1,42 @@
+body {
+    font-size: 16px;
+    line-height: 1.75;
+}
+
+.container {
+    max-width: 600px;
+}
+
+.attribution {
+    font-size: 12px;
+    font-style: italic;
+}
+
+.attribution a {
+    font-style: normal;
+}
+
+.speaker {
+    font-weight: bold;
+}
+
+.meetings {
+    margin: 28px 0;
+}
+
+.densmore-graph {
+    display: block;
+    margin: 28px auto;
+}
+
+.solution {
+    font-style: italic;
+}
+
+.solution a {
+    font-style: normal;
+}
+
+.signature {
+    text-align: center;
+}

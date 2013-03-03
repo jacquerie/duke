@@ -1,0 +1,36 @@
+\documentclass{standalone}
+
+\usepackage{tikz}
+
+\tikzstyle{vertex}=[circle,draw=black!100,thick,minimum size=1cm]
+\tikzstyle{pale_vertex}=[circle, draw=black!25!white, thick, minimum size=1cm]
+
+\begin{document}
+  \begin{tikzpicture}
+    \node (A) at (-2.7029066,  -1.30165122) [vertex] {A};
+    \node (B) at (-2.7029066,   1.30165122) [pale_vertex] {B};
+    \node (C) at (-0.667562802, 2.92478374) [vertex] {C};
+    \node (E) at ( 1.87046941,  2.34549445) [vertex] {E};
+    \node (F) at (3,            0) [vertex] {F};
+    \node (G) at (1.87046941,   -2.34549445) [pale_vertex] {G};
+    \node (H) at (-0.667562802, -2.92478374) [pale_vertex] {H};
+    
+    \draw (A) -- (B) [thick, color=black!25!white];
+    \draw (A) -- (C) [thick];
+    \draw (A) -- (F) [thick];
+    \draw (A) -- (G) [thick, color=black!25!white];
+    
+    \draw (B) -- (C) [thick, color=black!25!white];
+    \draw (B) -- (E) [thick, color=black!25!white];
+    \draw (B) -- (F) [thick, color=black!25!white];
+    \draw (B) -- (H) [thick, color=black!25!white];
+    
+    \draw (C) -- (E) [thick];
+    
+    \draw (E) -- (F) [thick];
+    
+    \draw (F) -- (H) [thick, color=black!25!white];
+    
+    \draw (G) -- (H) [thick, color=black!25!white];
+  \end{tikzpicture}
+\end{document}

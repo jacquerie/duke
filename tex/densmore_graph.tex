@@ -1,0 +1,35 @@
+\documentclass{standalone}
+
+\usepackage{tikz}
+
+\tikzstyle{vertex}=[circle,draw=black!100,thick,minimum size=1cm]
+
+\begin{document}
+  \begin{tikzpicture}
+    \node (A) at (-2.7029066,  -1.30165122) [vertex] {A};
+    \node (B) at (-2.7029066,   1.30165122) [vertex] {B};
+    \node (C) at (-0.667562802, 2.92478374) [vertex] {C};
+    \node (E) at ( 1.87046941,  2.34549445) [vertex] {E};
+    \node (F) at (3,            0) [vertex] {F};
+    \node (G) at (1.87046941,   -2.34549445) [vertex] {G};
+    \node (H) at (-0.667562802, -2.92478374) [vertex] {H};
+    
+    \draw (A) -- (B) [thick];
+    \draw (A) -- (C) [thick];
+    \draw (A) -- (F) [thick];
+    \draw (A) -- (G) [thick];
+    
+    \draw (B) -- (C) [thick];
+    \draw (B) -- (E) [thick];
+    \draw (B) -- (F) [thick];
+    \draw (B) -- (H) [thick];
+    
+    \draw (C) -- (E) [thick];
+    
+    \draw (E) -- (F) [thick];
+    
+    \draw (F) -- (H) [thick];
+    
+    \draw (G) -- (H) [thick];
+  \end{tikzpicture}
+\end{document}
