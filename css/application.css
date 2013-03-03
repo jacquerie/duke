@@ -3,16 +3,21 @@ body {
     line-height: 1.75;
 }
 
+img {
+    display: block;
+    margin: 28px auto;
+}
+
 .container {
     max-width: 600px;
 }
 
-.attribution {
+.alert-info {
     font-size: 12px;
     font-style: italic;
 }
 
-.attribution a {
+.alert-info a {
     font-style: normal;
 }
 
@@ -22,11 +27,6 @@ body {
 
 .meetings {
     margin: 28px 0;
-}
-
-.densmore-graph {
-    display: block;
-    margin: 28px auto;
 }
 
 .solution {
