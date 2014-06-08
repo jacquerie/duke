@@ -12,15 +12,6 @@ img {
     max-width: 600px;
 }
 
-.alert-info {
-    font-size: 12px;
-    font-style: italic;
-}
-
-.alert-info a {
-    font-style: normal;
-}
-
 .speaker {
     font-weight: bold;
 }
