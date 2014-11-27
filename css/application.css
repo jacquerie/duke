@@ -1,0 +1,33 @@
+body {
+    font-size: 16px;
+    line-height: 1.75;
+}
+
+.img {
+    display: block;
+    margin: 28px auto;
+}
+
+.container {
+    max-width: 600px;
+}
+
+.speaker {
+    font-weight: bold;
+}
+
+.meetings {
+    margin: 28px 0;
+}
+
+.solution {
+    font-style: italic;
+}
+
+.solution a {
+    font-style: normal;
+}
+
+.signature {
+    text-align: center;
+}
